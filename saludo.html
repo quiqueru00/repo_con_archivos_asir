@@ -11,11 +11,10 @@
   <script>
     let nombre = "";
 
-    // Pedimos el nombre hasta que no esté vacío
-    
-      nombre = prompt("Introduce tu nombre:");
-    
-
+   // Pedimos el nombre hasta que no esté vacío
+    do {
+      nombre = prompt("Introduce tu nombre:")?.trim();
+    } while (!nombre);
     // Mostramos el saludo en la página
     document.getElementById("saludo").textContent = "¡Hola, " + nombre + "!";
 	
