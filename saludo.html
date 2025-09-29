@@ -1,12 +1,25 @@
 <!DOCTYPE html>
-    <html>
-    <head>
-        <title>Mi primera página</title>
-    </head>
-    <body>
-        <h1>¡Hola!</h1>
-        <script>
-            alert("¡Hola Mundo!");
-        </script>
-    </body>
-    </html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Saludo</title>
+</head>
+<body>
+  
+  
+	<h2 id="saludo">Saludo personalizado</h2>
+  <script>
+    let nombre = "";
+
+    // Pedimos el nombre hasta que no esté vacío
+    
+      nombre = prompt("Introduce tu nombre:");
+    
+
+    // Mostramos el saludo en la página
+    document.getElementById("saludo").textContent = "¡Hola, " + nombre + "!";
+	
+  </script>
+  
+</body>
+</html>
