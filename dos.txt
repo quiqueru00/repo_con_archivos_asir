@@ -1,3 +1,7 @@
 2222
+<<<<<<< HEAD
 dos
 dos en master
+=======
+dos en desarrollo
+>>>>>>> 3b3c8c4 (Añadir informacion en desasrrollo)
